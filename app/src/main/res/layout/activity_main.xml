@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DDA0DD"
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    >
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtusername"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="4dp"
+        android:drawablePadding="5dp"
+        android:hint="Masukkan username"
+        android:textColor="#000000"
+        android:textColorHint="#B22222"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtpassword"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="4dp"
+        android:drawablePadding="5dp"
+        android:hint="Masukkan password"
+        android:textColor="#000000"
+        android:textColorHint="#B22222"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnlogin"
+        android:background="#B22222"
+        android:layout_gravity="center"
+        android:onClick="checkLogin"
+        />
+
+</LinearLayout>

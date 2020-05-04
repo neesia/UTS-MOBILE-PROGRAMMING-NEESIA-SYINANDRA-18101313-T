@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDA0DD"
+    android:padding="30dp"
+    tools:context=".menu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:text="Menghitung Luas dan Keliling Persegi Panjang"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="Panjang"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtpanjang"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="Lebar"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtlebar"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#B22222"
+        android:text="HITUNG" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="Hasil Luas"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txthasilluas"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:text="Hasil Keliling"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txthasilkeliling"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="#000000" />
+    </TableRow>
+
+
+</TableLayout>

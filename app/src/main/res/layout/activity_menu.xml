@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DDA0DD"
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textStyle="bold"
+        android:textSize="42sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:textColor="#000000"
+        />
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#B22222"
+        android:text="Bangun Datar Persegi Panjang"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:id="@+id/btnpersegipanjang"
+        />
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bangun Datar Lingkaran"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:id="@+id/btnlingkaran"
+        android:background="#B22222"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bangun Ruang Kubus"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:id="@+id/btnkubus"
+        android:background="#B22222"
+        />
+
+</LinearLayout>
